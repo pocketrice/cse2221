@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.3" sequence="1" timestamp="1713498201266" analysisTimestamp="1713498200490" release="">
+  <Project projectName="CoinChange">
+    <Jar>/Users/xie.3/cse/workspace/CoinChange/bin</Jar>
+    <AuxClasspathEntry>/Users/xie.3/cse/workspace/CoinChange/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/xie.3/cse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.9.v20231028-0858/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/xie.3/cse/workspace/CoinChange/src</SrcDir>
+    <SrcDir>/Users/xie.3/cse/workspace/CoinChange/test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 28 Mar 2024 15:05:28 -0400" total_classes="3" referenced_classes="20" total_bugs="0" total_size="82" num_packages="1" java_version="17.0.9" vm_version="17.0.9+9" cpu_seconds="1.92" clock_seconds="0.78" peak_mbytes="1197.95" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="3" total_size="82">
+      <ClassStats class="CoinChange1" sourceFile="CoinChange1.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="CoinChange2" sourceFile="CoinChange2.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="CoinChange3" sourceFile="CoinChange3.java" interface="false" size="24" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="286" invocations="2" avgMicrosecondsPerInvocation="143229" maxMicrosecondsPerInvocation="203340" standardDeviationMicrosecondsPerInvocation="60110"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="113" invocations="411" avgMicrosecondsPerInvocation="275" maxMicrosecondsPerInvocation="15668" standardDeviationMicrosecondsPerInvocation="961"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="36" invocations="20" avgMicrosecondsPerInvocation="1812" maxMicrosecondsPerInvocation="13717" standardDeviationMicrosecondsPerInvocation="3203"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="33" invocations="20" avgMicrosecondsPerInvocation="1682" maxMicrosecondsPerInvocation="20004" standardDeviationMicrosecondsPerInvocation="4338"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="27" invocations="146" avgMicrosecondsPerInvocation="190" maxMicrosecondsPerInvocation="4810" standardDeviationMicrosecondsPerInvocation="499"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="27" invocations="412" avgMicrosecondsPerInvocation="66" maxMicrosecondsPerInvocation="818" standardDeviationMicrosecondsPerInvocation="78"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="15" invocations="44" avgMicrosecondsPerInvocation="354" maxMicrosecondsPerInvocation="5330" standardDeviationMicrosecondsPerInvocation="901"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="14" invocations="20" avgMicrosecondsPerInvocation="709" maxMicrosecondsPerInvocation="6636" standardDeviationMicrosecondsPerInvocation="1524"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="12" invocations="376" avgMicrosecondsPerInvocation="32" maxMicrosecondsPerInvocation="617" standardDeviationMicrosecondsPerInvocation="78"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="11" invocations="11" avgMicrosecondsPerInvocation="1071" maxMicrosecondsPerInvocation="10840" standardDeviationMicrosecondsPerInvocation="3089"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1713498201266" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

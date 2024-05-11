@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.3" sequence="1" timestamp="1712262650983" analysisTimestamp="1712262650733" release="">
+  <Project projectName="StringReassembly">
+    <Jar>/Users/xie.3/cse/workspace/StringReassembly/bin</Jar>
+    <AuxClasspathEntry>/Users/xie.3/cse/workspace/StringReassembly/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/xie.3/cse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.9.v20231028-0858/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/xie.3/cse/workspace/StringReassembly/test</SrcDir>
+    <SrcDir>/Users/xie.3/cse/workspace/StringReassembly/src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 4 Apr 2024 16:30:03 -0400" total_classes="2" referenced_classes="25" total_bugs="0" total_size="213" num_packages="1" java_version="17.0.9" vm_version="17.0.9+9" cpu_seconds="0.51" clock_seconds="0.25" peak_mbytes="1443.64" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="2" total_size="213">
+      <ClassStats class="StringReassembly" sourceFile="StringReassembly.java" interface="false" size="119" bugs="0"/>
+      <ClassStats class="StringReassemblyTest" sourceFile="StringReassemblyTest.java" interface="false" size="94" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="67" invocations="404" avgMicrosecondsPerInvocation="167" maxMicrosecondsPerInvocation="3063" standardDeviationMicrosecondsPerInvocation="349"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="54" invocations="2" avgMicrosecondsPerInvocation="27141" maxMicrosecondsPerInvocation="49096" standardDeviationMicrosecondsPerInvocation="21955"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="29" invocations="405" avgMicrosecondsPerInvocation="71" maxMicrosecondsPerInvocation="640" standardDeviationMicrosecondsPerInvocation="95"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1712262650983" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.3" sequence="17" timestamp="1705533796387" analysisTimestamp="1705533796249" release="">
+  <Project projectName="MonteCarlo">
+    <Jar>/Users/xie.3/cse/workspace/MonteCarlo/bin/MonteCarlo.class</Jar>
+    <AuxClasspathEntry>/Users/xie.3/cse/workspace/MonteCarlo/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/xie.3/cse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.9.v20231028-0858/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/xie.3/cse/workspace/MonteCarlo/test</SrcDir>
+    <SrcDir>/Users/xie.3/cse/workspace/MonteCarlo/src</SrcDir>
+  </Project>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" rank="17" abbrev="ICAST" category="STYLE" first="11" last="11" removedByChange="true">
+    <Class classname="MonteCarlo">
+      <SourceLine classname="MonteCarlo" sourcefile="MonteCarlo.java" sourcepath="MonteCarlo.java"/>
+    </Class>
+    <Method classname="MonteCarlo" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="MonteCarlo" start="37" end="103" startBytecode="0" endBytecode="462" sourcefile="MonteCarlo.java" sourcepath="MonteCarlo.java"/>
+    </Method>
+    <SourceLine classname="MonteCarlo" start="96" end="96" startBytecode="146" endBytecode="146" sourcefile="MonteCarlo.java" sourcepath="MonteCarlo.java"/>
+    <SourceLine classname="MonteCarlo" start="96" end="96" startBytecode="146" endBytecode="146" sourcefile="MonteCarlo.java" sourcepath="MonteCarlo.java"/>
+  </BugInstance>
+  <BugInstance type="MS_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="10">
+    <Class classname="MonteCarlo">
+      <SourceLine classname="MonteCarlo" sourcefile="MonteCarlo.java" sourcepath="MonteCarlo.java"/>
+    </Class>
+    <Field classname="MonteCarlo" name="CIRCLE_CENTER" signature="[D" isStatic="true">
+      <SourceLine classname="MonteCarlo" sourcefile="MonteCarlo.java" sourcepath="MonteCarlo.java"/>
+    </Field>
+    <SourceLine classname="MonteCarlo" start="16" end="16" startBytecode="11" endBytecode="11" sourcefile="MonteCarlo.java" sourcepath="MonteCarlo.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 17 Jan 2024 18:23:16 -0500" total_classes="1" referenced_classes="19" total_bugs="1" total_size="31" num_packages="1" java_version="17.0.9" vm_version="17.0.9+9" cpu_seconds="0.34" clock_seconds="0.14" peak_mbytes="1124.07" alloc_mbytes="2048.00" gc_seconds="0.01" priority_2="1">
+    <PackageStats package="" total_bugs="1" total_types="1" total_size="31" priority_2="1">
+      <ClassStats class="MonteCarlo" sourceFile="MonteCarlo.java" interface="false" size="31" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="47" invocations="377" avgMicrosecondsPerInvocation="124" maxMicrosecondsPerInvocation="5814" standardDeviationMicrosecondsPerInvocation="368"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="35" invocations="2" avgMicrosecondsPerInvocation="17619" maxMicrosecondsPerInvocation="25155" standardDeviationMicrosecondsPerInvocation="7536"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="18" invocations="378" avgMicrosecondsPerInvocation="50" maxMicrosecondsPerInvocation="407" standardDeviationMicrosecondsPerInvocation="60"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1705528410531" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1705528410532" release="" codeSize="21" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1705531151081" release="" codeSize="24" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1705532100360" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1705532166994" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1705532212335" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1705532309121" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1705532337007" release="" codeSize="24" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1705532346817" release="" codeSize="24" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1705532380547" release="" codeSize="24" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1705532549400" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1705532885022" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1705532902593" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1705532930678" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1705532973249" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1705533072580" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1705533276329" release="" codeSize="31" numClasses="1"/>
+  </History>
+</BugCollection>

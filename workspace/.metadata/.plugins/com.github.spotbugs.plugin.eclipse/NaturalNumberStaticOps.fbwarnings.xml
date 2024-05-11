@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.3" sequence="10" timestamp="1708729384340" analysisTimestamp="1708729383842" release="">
+  <Project projectName="NaturalNumberStaticOps">
+    <Jar>/Users/xie.3/cse/workspace/NaturalNumberStaticOps/bin/NaturalNumberStaticOps.class</Jar>
+    <AuxClasspathEntry>/Users/xie.3/cse/workspace/NaturalNumberStaticOps/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/xie.3/cse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.9.v20231028-0858/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/xie.3/cse/workspace/NaturalNumberStaticOps/test</SrcDir>
+    <SrcDir>/Users/xie.3/cse/workspace/NaturalNumberStaticOps/src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="2" last="2" removedByChange="true">
+    <Class classname="NaturalNumberStaticOps">
+      <SourceLine classname="NaturalNumberStaticOps" sourcefile="NaturalNumberStaticOps.java" sourcepath="NaturalNumberStaticOps.java"/>
+    </Class>
+    <Method classname="NaturalNumberStaticOps" name="decrement" signature="(Lcomponents/naturalnumber/NaturalNumber;)V" isStatic="true">
+      <SourceLine classname="NaturalNumberStaticOps" start="84" end="89" startBytecode="0" endBytecode="22" sourcefile="NaturalNumberStaticOps.java" sourcepath="NaturalNumberStaticOps.java"/>
+    </Method>
+    <LocalVariable name="digit" register="1" pc="52" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NaturalNumberStaticOps" start="87" end="87" startBytecode="51" endBytecode="51" sourcefile="NaturalNumberStaticOps.java" sourcepath="NaturalNumberStaticOps.java"/>
+    <SourceLine classname="NaturalNumberStaticOps" start="87" end="87" startBytecode="51" endBytecode="51" sourcefile="NaturalNumberStaticOps.java" sourcepath="NaturalNumberStaticOps.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="digit"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 23 Feb 2024 18:03:03 -0500" total_classes="1" referenced_classes="21" total_bugs="0" total_size="100" num_packages="1" java_version="17.0.9" vm_version="17.0.9+9" cpu_seconds="1.34" clock_seconds="0.50" peak_mbytes="1052.49" alloc_mbytes="2048.00" gc_seconds="0.02">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="100">
+      <ClassStats class="NaturalNumberStaticOps" sourceFile="NaturalNumberStaticOps.java" interface="false" size="100" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="144" invocations="382" avgMicrosecondsPerInvocation="378" maxMicrosecondsPerInvocation="6964" standardDeviationMicrosecondsPerInvocation="786"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="104" invocations="383" avgMicrosecondsPerInvocation="273" maxMicrosecondsPerInvocation="34866" standardDeviationMicrosecondsPerInvocation="1806"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="102" invocations="2" avgMicrosecondsPerInvocation="51025" maxMicrosecondsPerInvocation="92286" standardDeviationMicrosecondsPerInvocation="41261"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="17" invocations="347" avgMicrosecondsPerInvocation="51" maxMicrosecondsPerInvocation="943" standardDeviationMicrosecondsPerInvocation="103"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1708727091629" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1708727091632" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1708727173037" release="" codeSize="77" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1708727301930" release="" codeSize="82" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1708728879569" release="" codeSize="94" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1708728909273" release="" codeSize="94" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1708729089498" release="" codeSize="97" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1708729116424" release="" codeSize="98" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1708729119543" release="" codeSize="98" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1708729309505" release="" codeSize="98" numClasses="1"/>
+  </History>
+</BugCollection>

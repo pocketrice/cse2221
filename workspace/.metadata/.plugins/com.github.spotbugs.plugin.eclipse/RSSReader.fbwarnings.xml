@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.3" sequence="14" timestamp="1708667009415" analysisTimestamp="1708667009135" release="">
+  <Project projectName="RSSReader">
+    <Jar>/Users/xie.3/cse/workspace/RSSReader/bin/RSSReader.class</Jar>
+    <AuxClasspathEntry>/Users/xie.3/cse/workspace/RSSReader/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/xie.3/cse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.9.v20231028-0858/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/xie.3/cse/workspace/RSSReader/src</SrcDir>
+    <SrcDir>/Users/xie.3/cse/workspace/RSSReader/test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 23 Feb 2024 00:43:29 -0500" total_classes="1" referenced_classes="20" total_bugs="0" total_size="150" num_packages="1" java_version="17.0.9" vm_version="17.0.9+9" cpu_seconds="0.77" clock_seconds="0.28" peak_mbytes="1109.61" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="150">
+      <ClassStats class="RSSReader" sourceFile="RSSReader.java" interface="false" size="150" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="88" invocations="407" avgMicrosecondsPerInvocation="218" maxMicrosecondsPerInvocation="3693" standardDeviationMicrosecondsPerInvocation="447"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="47" invocations="2" avgMicrosecondsPerInvocation="23583" maxMicrosecondsPerInvocation="41495" standardDeviationMicrosecondsPerInvocation="17912"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="37" invocations="408" avgMicrosecondsPerInvocation="91" maxMicrosecondsPerInvocation="1007" standardDeviationMicrosecondsPerInvocation="122"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1707779818767" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1707779818768" release="" codeSize="64" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1707780186337" release="" codeSize="67" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1707780294218" release="" codeSize="67" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1707870549032" release="" codeSize="67" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1707876771322" release="" codeSize="147" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1707876795778" release="" codeSize="147" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1707876856270" release="" codeSize="147" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1708666048841" release="" codeSize="148" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1708666300931" release="" codeSize="148" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1708666476116" release="" codeSize="150" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1708666570338" release="" codeSize="151" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1708666807865" release="" codeSize="118" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1708666927811" release="" codeSize="118" numClasses="1"/>
+  </History>
+</BugCollection>

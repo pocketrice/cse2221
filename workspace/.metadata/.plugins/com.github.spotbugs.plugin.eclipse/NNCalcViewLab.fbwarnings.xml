@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.3" sequence="2" timestamp="1712960217266" analysisTimestamp="1712960215346" release="">
+  <Project projectName="NNCalcViewLab">
+    <Jar>/Users/xie.3/cse/workspace/NNCalcViewLab/bin/NNCalcViewLab.class</Jar>
+    <AuxClasspathEntry>/Users/xie.3/cse/workspace/NNCalcViewLab/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/xie.3/cse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.9.v20231028-0858/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/xie.3/cse/workspace/NNCalcViewLab/src</SrcDir>
+    <SrcDir>/Users/xie.3/cse/workspace/NNCalcViewLab/test</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="NNCalcViewLab">
+      <SourceLine classname="NNCalcViewLab" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    </Class>
+    <Method classname="NNCalcViewLab" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="NNCalcViewLab" start="218" end="219" startBytecode="0" endBytecode="4" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    </Method>
+    <LocalVariable name="view" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcViewLab" start="218" end="218" startBytecode="7" endBytecode="7" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    <SourceLine classname="NNCalcViewLab" start="218" end="218" startBytecode="7" endBytecode="7" sourcefile="NNCalcViewLab.java" sourcepath="NNCalcViewLab.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="view"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 12 Apr 2024 18:16:49 -0400" total_classes="1" referenced_classes="289" total_bugs="1" total_size="87" num_packages="1" java_version="17.0.9" vm_version="17.0.9+9" cpu_seconds="4.57" clock_seconds="1.92" peak_mbytes="1188.94" alloc_mbytes="2048.00" gc_seconds="0.03" priority_1="1">
+    <PackageStats package="" total_bugs="1" total_types="1" total_size="87" priority_1="1">
+      <ClassStats class="NNCalcViewLab" sourceFile="NNCalcViewLab.java" interface="false" size="87" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="683" invocations="1570" avgMicrosecondsPerInvocation="435" maxMicrosecondsPerInvocation="17928" standardDeviationMicrosecondsPerInvocation="1233"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="167" invocations="2" avgMicrosecondsPerInvocation="83798" maxMicrosecondsPerInvocation="125376" standardDeviationMicrosecondsPerInvocation="41578"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="154" invocations="1575" avgMicrosecondsPerInvocation="98" maxMicrosecondsPerInvocation="1619" standardDeviationMicrosecondsPerInvocation="127"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="131" invocations="289" avgMicrosecondsPerInvocation="454" maxMicrosecondsPerInvocation="8373" standardDeviationMicrosecondsPerInvocation="891"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="125" invocations="289" avgMicrosecondsPerInvocation="434" maxMicrosecondsPerInvocation="8995" standardDeviationMicrosecondsPerInvocation="883"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="70" invocations="647" avgMicrosecondsPerInvocation="109" maxMicrosecondsPerInvocation="2768" standardDeviationMicrosecondsPerInvocation="156"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="54" invocations="289" avgMicrosecondsPerInvocation="186" maxMicrosecondsPerInvocation="31687" standardDeviationMicrosecondsPerInvocation="1859"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="41" invocations="289" avgMicrosecondsPerInvocation="143" maxMicrosecondsPerInvocation="1961" standardDeviationMicrosecondsPerInvocation="232"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="41" invocations="355" avgMicrosecondsPerInvocation="116" maxMicrosecondsPerInvocation="1453" standardDeviationMicrosecondsPerInvocation="183"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1712960192810" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1712960192811" release="" codeSize="28" numClasses="1"/>
+  </History>
+</BugCollection>

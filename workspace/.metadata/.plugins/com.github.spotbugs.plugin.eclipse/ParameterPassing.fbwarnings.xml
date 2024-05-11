@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.3" sequence="2" timestamp="1708122546143" analysisTimestamp="1708122545553" release="">
+  <Project projectName="ParameterPassing">
+    <Jar>/Users/xie.3/cse/workspace/ParameterPassing/bin/ParameterPassing.class</Jar>
+    <AuxClasspathEntry>/Users/xie.3/cse/workspace/ParameterPassing/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/xie.3/cse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.9.v20231028-0858/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/xie.3/cse/workspace/ParameterPassing/test</SrcDir>
+    <SrcDir>/Users/xie.3/cse/workspace/ParameterPassing/src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="ParameterPassing">
+      <SourceLine classname="ParameterPassing" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Class>
+    <Method classname="ParameterPassing" name="swap3" signature="(Lcomponents/naturalnumber/NaturalNumber;Lcomponents/naturalnumber/NaturalNumber;)V" isStatic="true">
+      <SourceLine classname="ParameterPassing" start="129" end="132" startBytecode="0" endBytecode="6" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Method>
+    <LocalVariable name="n1" register="0" pc="4" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ParameterPassing" start="130" end="130" startBytecode="3" endBytecode="3" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <SourceLine classname="ParameterPassing" start="130" end="130" startBytecode="3" endBytecode="3" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="n1"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="ParameterPassing">
+      <SourceLine classname="ParameterPassing" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Class>
+    <Method classname="ParameterPassing" name="swap3" signature="(Lcomponents/naturalnumber/NaturalNumber;Lcomponents/naturalnumber/NaturalNumber;)V" isStatic="true">
+      <SourceLine classname="ParameterPassing" start="129" end="132" startBytecode="0" endBytecode="6" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Method>
+    <LocalVariable name="n2" register="1" pc="6" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ParameterPassing" start="131" end="131" startBytecode="5" endBytecode="5" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <SourceLine classname="ParameterPassing" start="131" end="131" startBytecode="5" endBytecode="5" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="n2"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="ParameterPassing">
+      <SourceLine classname="ParameterPassing" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Class>
+    <Method classname="ParameterPassing" name="swap4" signature="([I[I)V" isStatic="true">
+      <SourceLine classname="ParameterPassing" start="143" end="146" startBytecode="0" endBytecode="6" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Method>
+    <LocalVariable name="a1" register="0" pc="4" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ParameterPassing" start="144" end="144" startBytecode="3" endBytecode="3" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <SourceLine classname="ParameterPassing" start="144" end="144" startBytecode="3" endBytecode="3" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="a1"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="ParameterPassing">
+      <SourceLine classname="ParameterPassing" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Class>
+    <Method classname="ParameterPassing" name="swap4" signature="([I[I)V" isStatic="true">
+      <SourceLine classname="ParameterPassing" start="143" end="146" startBytecode="0" endBytecode="6" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Method>
+    <LocalVariable name="a2" register="1" pc="6" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ParameterPassing" start="145" end="145" startBytecode="5" endBytecode="5" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <SourceLine classname="ParameterPassing" start="145" end="145" startBytecode="5" endBytecode="5" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="a2"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="ParameterPassing">
+      <SourceLine classname="ParameterPassing" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Class>
+    <Method classname="ParameterPassing" name="test1" signature="(I)V" isStatic="true">
+      <SourceLine classname="ParameterPassing" start="29" end="30" startBytecode="0" endBytecode="1" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Method>
+    <LocalVariable name="i" register="0" pc="3" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ParameterPassing" start="29" end="29" startBytecode="0" endBytecode="0" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <SourceLine classname="ParameterPassing" start="29" end="29" startBytecode="0" endBytecode="0" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_INCREMENT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="i"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.SINGLE_DEAD_INCREMENT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="ParameterPassing">
+      <SourceLine classname="ParameterPassing" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Class>
+    <Method classname="ParameterPassing" name="test4" signature="(Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="ParameterPassing" start="59" end="60" startBytecode="0" endBytecode="3" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Method>
+    <LocalVariable name="s" register="0" pc="5" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ParameterPassing" start="59" end="59" startBytecode="4" endBytecode="4" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <SourceLine classname="ParameterPassing" start="59" end="59" startBytecode="4" endBytecode="4" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="s"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="ParameterPassing">
+      <SourceLine classname="ParameterPassing" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Class>
+    <Method classname="ParameterPassing" name="test5" signature="(Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="ParameterPassing" start="69" end="70" startBytecode="0" endBytecode="9" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Method>
+    <LocalVariable name="s" register="0" pc="20" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ParameterPassing" start="69" end="69" startBytecode="19" endBytecode="19" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <SourceLine classname="ParameterPassing" start="69" end="69" startBytecode="19" endBytecode="19" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="s"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="ParameterPassing">
+      <SourceLine classname="ParameterPassing" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Class>
+    <Method classname="ParameterPassing" name="test6" signature="(Lcomponents/naturalnumber/NaturalNumber;)V" isStatic="true">
+      <SourceLine classname="ParameterPassing" start="79" end="80" startBytecode="0" endBytecode="13" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Method>
+    <LocalVariable name="n" register="0" pc="30" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ParameterPassing" start="79" end="79" startBytecode="29" endBytecode="29" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <SourceLine classname="ParameterPassing" start="79" end="79" startBytecode="29" endBytecode="29" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="n"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="ParameterPassing">
+      <SourceLine classname="ParameterPassing" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Class>
+    <Method classname="ParameterPassing" name="swap1" signature="(II)V" isStatic="true">
+      <SourceLine classname="ParameterPassing" start="101" end="104" startBytecode="0" endBytecode="6" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Method>
+    <LocalVariable name="i" register="0" pc="4" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ParameterPassing" start="102" end="102" startBytecode="3" endBytecode="3" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <SourceLine classname="ParameterPassing" start="102" end="102" startBytecode="3" endBytecode="3" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="i"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="ParameterPassing">
+      <SourceLine classname="ParameterPassing" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Class>
+    <Method classname="ParameterPassing" name="swap1" signature="(II)V" isStatic="true">
+      <SourceLine classname="ParameterPassing" start="101" end="104" startBytecode="0" endBytecode="6" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Method>
+    <LocalVariable name="j" register="1" pc="6" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ParameterPassing" start="103" end="103" startBytecode="5" endBytecode="5" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <SourceLine classname="ParameterPassing" start="103" end="103" startBytecode="5" endBytecode="5" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="j"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="ParameterPassing">
+      <SourceLine classname="ParameterPassing" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Class>
+    <Method classname="ParameterPassing" name="swap2" signature="(Ljava/lang/String;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="ParameterPassing" start="115" end="118" startBytecode="0" endBytecode="6" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Method>
+    <LocalVariable name="s1" register="0" pc="4" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ParameterPassing" start="116" end="116" startBytecode="3" endBytecode="3" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <SourceLine classname="ParameterPassing" start="116" end="116" startBytecode="3" endBytecode="3" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="s1"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="ParameterPassing">
+      <SourceLine classname="ParameterPassing" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Class>
+    <Method classname="ParameterPassing" name="swap2" signature="(Ljava/lang/String;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="ParameterPassing" start="115" end="118" startBytecode="0" endBytecode="6" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Method>
+    <LocalVariable name="s2" register="1" pc="6" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ParameterPassing" start="117" end="117" startBytecode="5" endBytecode="5" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <SourceLine classname="ParameterPassing" start="117" end="117" startBytecode="5" endBytecode="5" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="s2"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED" priority="1" rank="3" abbrev="RV" category="CORRECTNESS" first="2">
+    <Class classname="ParameterPassing">
+      <SourceLine classname="ParameterPassing" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Class>
+    <Method classname="ParameterPassing" name="test2" signature="(Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="ParameterPassing" start="39" end="40" startBytecode="0" endBytecode="51" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="toUpperCase" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="3498" end="3498" startBytecode="0" endBytecode="49" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="ParameterPassing" start="39" end="39" startBytecode="1" endBytecode="1" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <SourceLine classname="ParameterPassing" start="39" end="39" startBytecode="1" endBytecode="1" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_VOID_METHOD" priority="2" rank="17" abbrev="UC" category="STYLE" first="2">
+    <Class classname="ParameterPassing">
+      <SourceLine classname="ParameterPassing" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Class>
+    <Method classname="ParameterPassing" name="test5" signature="(Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="ParameterPassing" start="69" end="70" startBytecode="0" endBytecode="66" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    </Method>
+    <SourceLine classname="ParameterPassing" start="70" end="70" startBytecode="20" endBytecode="20" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+    <SourceLine classname="ParameterPassing" start="70" end="70" startBytecode="20" endBytecode="20" sourcefile="ParameterPassing.java" sourcepath="ParameterPassing.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 16 Feb 2024 17:29:02 -0500" total_classes="1" referenced_classes="18" total_bugs="14" total_size="120" num_packages="1" java_version="17.0.9" vm_version="17.0.9+9" cpu_seconds="3.18" clock_seconds="0.69" peak_mbytes="1072.70" alloc_mbytes="2048.00" gc_seconds="0.01" priority_2="5" priority_1="9">
+    <PackageStats package="" total_bugs="14" total_types="1" total_size="120" priority_2="5" priority_1="9">
+      <ClassStats class="ParameterPassing" sourceFile="ParameterPassing.java" interface="false" size="120" bugs="14" priority_2="5" priority_1="9"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="125" invocations="409" avgMicrosecondsPerInvocation="306" maxMicrosecondsPerInvocation="9135" standardDeviationMicrosecondsPerInvocation="801"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="69" invocations="2" avgMicrosecondsPerInvocation="34597" maxMicrosecondsPerInvocation="60166" standardDeviationMicrosecondsPerInvocation="25569"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="40" invocations="410" avgMicrosecondsPerInvocation="99" maxMicrosecondsPerInvocation="2382" standardDeviationMicrosecondsPerInvocation="158"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="31" invocations="1" avgMicrosecondsPerInvocation="31235" maxMicrosecondsPerInvocation="31235" standardDeviationMicrosecondsPerInvocation="0"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="24" invocations="18" avgMicrosecondsPerInvocation="1346" maxMicrosecondsPerInvocation="8557" standardDeviationMicrosecondsPerInvocation="2173"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="18" invocations="146" avgMicrosecondsPerInvocation="128" maxMicrosecondsPerInvocation="969" standardDeviationMicrosecondsPerInvocation="153"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="17" invocations="18" avgMicrosecondsPerInvocation="978" maxMicrosecondsPerInvocation="7214" standardDeviationMicrosecondsPerInvocation="1751"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="15" invocations="13" avgMicrosecondsPerInvocation="1190" maxMicrosecondsPerInvocation="12486" standardDeviationMicrosecondsPerInvocation="3265"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="13" invocations="373" avgMicrosecondsPerInvocation="36" maxMicrosecondsPerInvocation="759" standardDeviationMicrosecondsPerInvocation="82"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="12" invocations="13" avgMicrosecondsPerInvocation="941" maxMicrosecondsPerInvocation="9546" standardDeviationMicrosecondsPerInvocation="2488"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1708122533364" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1708122533365" release="" codeSize="9" numClasses="1"/>
+  </History>
+</BugCollection>

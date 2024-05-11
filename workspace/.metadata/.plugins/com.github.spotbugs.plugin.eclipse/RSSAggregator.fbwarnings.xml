@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.3" sequence="16" timestamp="1708720759950" analysisTimestamp="1708720759658" release="">
+  <Project projectName="RSSAggregator">
+    <Jar>/Users/xie.3/cse/workspace/RSSAggregator/bin/RSSAggregator.class</Jar>
+    <AuxClasspathEntry>/Users/xie.3/cse/workspace/RSSAggregator/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/xie.3/cse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.9.v20231028-0858/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/xie.3/cse/workspace/RSSAggregator/test</SrcDir>
+    <SrcDir>/Users/xie.3/cse/workspace/RSSAggregator/src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="4" last="4" removedByChange="true">
+    <Class classname="RSSAggregator">
+      <SourceLine classname="RSSAggregator" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Class>
+    <Method classname="RSSAggregator" name="processFeed" signature="(Ljava/lang/String;Ljava/lang/String;Lcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="RSSAggregator" start="41" end="136" startBytecode="0" endBytecode="351" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Method>
+    <LocalVariable name="writerOut" register="4" pc="38" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="RSSAggregator" start="42" end="42" startBytecode="36" endBytecode="36" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <SourceLine classname="RSSAggregator" start="42" end="42" startBytecode="36" endBytecode="36" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="writerOut"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 23 Feb 2024 15:39:19 -0500" total_classes="1" referenced_classes="20" total_bugs="0" total_size="149" num_packages="1" java_version="17.0.9" vm_version="17.0.9+9" cpu_seconds="0.80" clock_seconds="0.29" peak_mbytes="1143.51" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="149">
+      <ClassStats class="RSSAggregator" sourceFile="RSSAggregator.java" interface="false" size="149" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="102" invocations="407" avgMicrosecondsPerInvocation="250" maxMicrosecondsPerInvocation="6593" standardDeviationMicrosecondsPerInvocation="588"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="51" invocations="2" avgMicrosecondsPerInvocation="25748" maxMicrosecondsPerInvocation="46572" standardDeviationMicrosecondsPerInvocation="20824"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="39" invocations="408" avgMicrosecondsPerInvocation="96" maxMicrosecondsPerInvocation="1159" standardDeviationMicrosecondsPerInvocation="138"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1708667236799" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1708667236799" release="" codeSize="150" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1708667443551" release="" codeSize="150" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1708667540452" release="" codeSize="119" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1708670169366" release="" codeSize="156" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1708670227230" release="" codeSize="156" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1708670386136" release="" codeSize="156" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1708670514081" release="" codeSize="123" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1708716341401" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1708718172833" release="" codeSize="153" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1708718178798" release="" codeSize="146" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1708718190439" release="" codeSize="153" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1708718313940" release="" codeSize="153" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1708718361336" release="" codeSize="154" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1708718677470" release="" codeSize="150" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1708720703450" release="" codeSize="150" numClasses="1"/>
+  </History>
+</BugCollection>

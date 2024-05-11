@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.3" sequence="1" timestamp="1710955063445" analysisTimestamp="1710955063205" release="">
+  <Project projectName="xml-expression-generator">
+    <Jar>/Users/xie.3/cse/workspace/xml-expression-generator/bin</Jar>
+    <AuxClasspathEntry>/Users/xie.3/cse/workspace/xml-expression-generator/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/xie.3/cse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/xie.3/cse/workspace/xml-expression-generator/lib/xml-expression-generator.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.9.v20231028-0858/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/xie.3/cse/workspace/xml-expression-generator/src</SrcDir>
+    <SrcDir>/Users/xie.3/cse/workspace/xml-expression-generator/test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 20 Mar 2024 13:17:43 -0400" total_classes="1" referenced_classes="14" total_bugs="0" total_size="7" num_packages="1" java_version="17.0.9" vm_version="17.0.9+9" cpu_seconds="0.92" clock_seconds="0.24" peak_mbytes="1155.79" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="7">
+      <ClassStats class="RunGenerator" sourceFile="RunGenerator.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="86" invocations="395" avgMicrosecondsPerInvocation="219" maxMicrosecondsPerInvocation="3260" standardDeviationMicrosecondsPerInvocation="428"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="42" invocations="2" avgMicrosecondsPerInvocation="21034" maxMicrosecondsPerInvocation="37400" standardDeviationMicrosecondsPerInvocation="16366"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="41" invocations="396" avgMicrosecondsPerInvocation="103" maxMicrosecondsPerInvocation="959" standardDeviationMicrosecondsPerInvocation="138"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="19" invocations="70" avgMicrosecondsPerInvocation="280" maxMicrosecondsPerInvocation="13447" standardDeviationMicrosecondsPerInvocation="1588"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1710955063445" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

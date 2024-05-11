@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;RSSReader&apos; to &apos;NaturalNumberRoot&apos;&#x0A;- Original project: &apos;NaturalNumberRoot&apos;&#x0A;- Original element: &apos;RSSReader&apos;&#x0A;- Renamed element: &apos;NaturalNumberRoot&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;RSSReader&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{RSSReader.java[RSSReader" matchStrategy="1" name="NaturalNumberRoot" qualified="false" references="true" similarDeclarations="false" stamp="1709326481757" textual="false" version="1.0"/>
+</session>

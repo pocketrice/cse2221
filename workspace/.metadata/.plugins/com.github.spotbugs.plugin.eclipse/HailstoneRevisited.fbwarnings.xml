@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.3" sequence="30" timestamp="1708123648172" analysisTimestamp="1708123647772" release="">
+  <Project projectName="HailstoneRevisited">
+    <Jar>/Users/xie.3/cse/workspace/HailstoneRevisited/bin/Hailstone3.class</Jar>
+    <AuxClasspathEntry>/Users/xie.3/cse/workspace/HailstoneRevisited/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/xie.3/cse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.9.v20231028-0858/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/xie.3/cse/workspace/HailstoneRevisited/src</SrcDir>
+    <SrcDir>/Users/xie.3/cse/workspace/HailstoneRevisited/test</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="19" last="20" removedByChange="true">
+    <Class classname="Hailstone4">
+      <SourceLine classname="Hailstone4" sourcefile="Hailstone4.java" sourcepath="Hailstone4.java"/>
+    </Class>
+    <Method classname="Hailstone4" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Hailstone4" start="74" end="106" startBytecode="0" endBytecode="62" sourcefile="Hailstone4.java" sourcepath="Hailstone4.java"/>
+    </Method>
+    <LocalVariable name="largestValPair" register="6" pc="36" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Hailstone4" start="79" end="79" startBytecode="34" endBytecode="34" sourcefile="Hailstone4.java" sourcepath="Hailstone4.java"/>
+    <SourceLine classname="Hailstone4" start="79" end="79" startBytecode="34" endBytecode="34" sourcefile="Hailstone4.java" sourcepath="Hailstone4.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="largestValPair"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="19" last="20" removedByChange="true">
+    <Class classname="Hailstone4">
+      <SourceLine classname="Hailstone4" sourcefile="Hailstone4.java" sourcepath="Hailstone4.java"/>
+    </Class>
+    <Method classname="Hailstone4" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Hailstone4" start="74" end="106" startBytecode="0" endBytecode="62" sourcefile="Hailstone4.java" sourcepath="Hailstone4.java"/>
+    </Method>
+    <LocalVariable name="longestSeriesPair" register="7" pc="42" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Hailstone4" start="80" end="80" startBytecode="40" endBytecode="40" sourcefile="Hailstone4.java" sourcepath="Hailstone4.java"/>
+    <SourceLine classname="Hailstone4" start="80" end="80" startBytecode="40" endBytecode="40" sourcefile="Hailstone4.java" sourcepath="Hailstone4.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="longestSeriesPair"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_LOOP" priority="1" rank="8" abbrev="IL" category="CORRECTNESS" first="19">
+    <Class classname="Hailstone4">
+      <SourceLine classname="Hailstone4" sourcefile="Hailstone4.java" sourcepath="Hailstone4.java"/>
+    </Class>
+    <Method classname="Hailstone4" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Hailstone4" start="74" end="143" startBytecode="0" endBytecode="1137" sourcefile="Hailstone4.java" sourcepath="Hailstone4.java"/>
+    </Method>
+    <SourceLine classname="Hailstone4" start="84" end="84" startBytecode="487" endBytecode="487" sourcefile="Hailstone4.java" sourcepath="Hailstone4.java"/>
+    <LocalVariable name="isRunning" register="4" pc="487" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Hailstone4" start="77" end="77" startBytecode="19" endBytecode="19" sourcefile="Hailstone4.java" sourcepath="Hailstone4.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 16 Feb 2024 17:47:27 -0500" total_classes="1" referenced_classes="19" total_bugs="1" total_size="34" num_packages="1" java_version="17.0.9" vm_version="17.0.9+9" cpu_seconds="1.44" clock_seconds="0.40" peak_mbytes="1114.12" alloc_mbytes="2048.00" gc_seconds="0.01" priority_1="1">
+    <PackageStats package="" total_bugs="1" total_types="2" total_size="34" priority_1="1">
+      <ClassStats class="Hailstone3" sourceFile="Hailstone3.java" interface="false" size="34" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="106" invocations="376" avgMicrosecondsPerInvocation="282" maxMicrosecondsPerInvocation="14853" standardDeviationMicrosecondsPerInvocation="891"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="52" invocations="2" avgMicrosecondsPerInvocation="26139" maxMicrosecondsPerInvocation="45356" standardDeviationMicrosecondsPerInvocation="19217"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="33" invocations="377" avgMicrosecondsPerInvocation="89" maxMicrosecondsPerInvocation="742" standardDeviationMicrosecondsPerInvocation="109"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="16" invocations="19" avgMicrosecondsPerInvocation="843" maxMicrosecondsPerInvocation="5033" standardDeviationMicrosecondsPerInvocation="1402"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="12" invocations="71" avgMicrosecondsPerInvocation="179" maxMicrosecondsPerInvocation="1096" standardDeviationMicrosecondsPerInvocation="183"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1707949693262" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1707949693264" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1707949734866" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1707949968437" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1707950145609" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1707950355268" release="" codeSize="27" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1707950528286" release="" codeSize="28" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1707950647669" release="" codeSize="15" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1707950812755" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1707950851455" release="" codeSize="27" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1707950870543" release="" codeSize="27" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1707950903158" release="" codeSize="27" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1707950988289" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1707951047375" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1707951060032" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1707951216522" release="" codeSize="34" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1707951281020" release="" codeSize="34" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1707951290358" release="" codeSize="34" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1707951429287" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1707951749913" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1707953046843" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1707953749017" release="" codeSize="72" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1707953850492" release="" codeSize="74" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1707953904534" release="" codeSize="74" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1707953928362" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1707954030911" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1707954197858" release="" codeSize="77" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1707954250109" release="" codeSize="33" numClasses="1"/>
+    <AppVersion sequence="28" timestamp="1707954302681" release="" codeSize="81" numClasses="1"/>
+    <AppVersion sequence="29" timestamp="1707954320028" release="" codeSize="81" numClasses="1"/>
+  </History>
+</BugCollection>

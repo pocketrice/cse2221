@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.3" sequence="7" timestamp="1709326675621" analysisTimestamp="1709326675304" release="">
+  <Project projectName="NaturalNumberRoot">
+    <Jar>/Users/xie.3/cse/workspace/NaturalNumberRoot/bin/NaturalNumberRoot.class</Jar>
+    <AuxClasspathEntry>/Users/xie.3/cse/workspace/NaturalNumberRoot/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/xie.3/cse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.9.v20231028-0858/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/xie.3/cse/workspace/NaturalNumberRoot/src</SrcDir>
+    <SrcDir>/Users/xie.3/cse/workspace/NaturalNumberRoot/test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 1 Mar 2024 15:57:55 -0500" total_classes="1" referenced_classes="18" total_bugs="0" total_size="63" num_packages="1" java_version="17.0.9" vm_version="17.0.9+9" cpu_seconds="1.06" clock_seconds="0.32" peak_mbytes="1081.07" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="63">
+      <ClassStats class="NaturalNumberRoot" sourceFile="NaturalNumberRoot.java" interface="false" size="63" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="88" invocations="381" avgMicrosecondsPerInvocation="232" maxMicrosecondsPerInvocation="3445" standardDeviationMicrosecondsPerInvocation="436"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="49" invocations="2" avgMicrosecondsPerInvocation="24659" maxMicrosecondsPerInvocation="42716" standardDeviationMicrosecondsPerInvocation="18057"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="37" invocations="382" avgMicrosecondsPerInvocation="99" maxMicrosecondsPerInvocation="770" standardDeviationMicrosecondsPerInvocation="118"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1709326482728" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1709326482728" release="" codeSize="150" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1709326492900" release="" codeSize="63" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1709326520294" release="" codeSize="63" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1709326527886" release="" codeSize="63" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1709326600050" release="" codeSize="63" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1709326659811" release="" codeSize="63" numClasses="1"/>
+  </History>
+</BugCollection>

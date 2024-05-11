@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.3" sequence="18" timestamp="1712184203238" analysisTimestamp="1712184203103" release="">
+  <Project projectName="NextWordOrSeparatorTest">
+    <Jar>/Users/xie.3/cse/workspace/NextWordOrSeparatorTest/bin/NextWordOrSeparatorTestTest.class</Jar>
+    <AuxClasspathEntry>/Users/xie.3/cse/workspace/NextWordOrSeparatorTest/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/xie.3/cse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.9.v20231028-0858/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/xie.3/cse/workspace/NextWordOrSeparatorTest/test</SrcDir>
+    <SrcDir>/Users/xie.3/cse/workspace/NextWordOrSeparatorTest/src</SrcDir>
+  </Project>
+  <BugInstance type="CT_CONSTRUCTOR_THROW" priority="2" rank="16" abbrev="CT" category="BAD_PRACTICE" first="13" last="13" removedByChange="true">
+    <Class classname="NextWordOrSeparatorTestTest">
+      <SourceLine classname="NextWordOrSeparatorTestTest" sourcefile="NextWordOrSeparatorTestTest.java" sourcepath="NextWordOrSeparatorTestTest.java"/>
+    </Class>
+    <Method classname="NextWordOrSeparatorTestTest" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="NextWordOrSeparatorTestTest" start="108" end="108" startBytecode="0" endBytecode="51" sourcefile="NextWordOrSeparatorTestTest.java" sourcepath="NextWordOrSeparatorTestTest.java"/>
+    </Method>
+    <SourceLine classname="NextWordOrSeparatorTestTest" start="108" end="108" startBytecode="9" endBytecode="9" sourcefile="NextWordOrSeparatorTestTest.java" sourcepath="NextWordOrSeparatorTestTest.java"/>
+    <SourceLine classname="NextWordOrSeparatorTestTest" start="108" end="108" startBytecode="9" endBytecode="9" sourcefile="NextWordOrSeparatorTestTest.java" sourcepath="NextWordOrSeparatorTestTest.java"/>
+    <SourceLine classname="NextWordOrSeparatorTestTest" start="108" end="108" startBytecode="9" endBytecode="9" sourcefile="NextWordOrSeparatorTestTest.java" sourcepath="NextWordOrSeparatorTestTest.java"/>
+  </BugInstance>
+  <BugInstance type="EC_ARRAY_AND_NONARRAY" priority="2" rank="3" abbrev="EC" category="CORRECTNESS" first="15">
+    <Class classname="NextWordOrSeparatorTestTest">
+      <SourceLine classname="NextWordOrSeparatorTestTest" sourcefile="NextWordOrSeparatorTestTest.java" sourcepath="NextWordOrSeparatorTestTest.java"/>
+    </Class>
+    <Method classname="NextWordOrSeparatorTestTest" name="nextWordOrSeparatorTestSeveralWords" signature="()V" isStatic="false">
+      <SourceLine classname="NextWordOrSeparatorTestTest" start="148" end="159" startBytecode="0" endBytecode="42" sourcefile="NextWordOrSeparatorTestTest.java" sourcepath="NextWordOrSeparatorTestTest.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="140" end="4657" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="[Ljava/lang/String;" role="TYPE_EXPECTED"/>
+    <LocalVariable name="resCand" register="4" pc="73" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <LocalVariable name="resExp" register="2" pc="73" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="NextWordOrSeparatorTestTest" start="158" end="158" startBytecode="75" endBytecode="75" sourcefile="NextWordOrSeparatorTestTest.java" sourcepath="NextWordOrSeparatorTestTest.java"/>
+    <SourceLine classname="NextWordOrSeparatorTestTest" start="158" end="158" startBytecode="75" endBytecode="75" sourcefile="NextWordOrSeparatorTestTest.java" sourcepath="NextWordOrSeparatorTestTest.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="2" rank="3" abbrev="EC" category="CORRECTNESS" first="16" last="16" removedByChange="true">
+    <Class classname="NextWordOrSeparatorTestTest">
+      <SourceLine classname="NextWordOrSeparatorTestTest" sourcefile="NextWordOrSeparatorTestTest.java" sourcepath="NextWordOrSeparatorTestTest.java"/>
+    </Class>
+    <Method classname="NextWordOrSeparatorTestTest" name="nextWordOrSeparatorTestSingleSep" signature="()V" isStatic="false">
+      <SourceLine classname="NextWordOrSeparatorTestTest" start="127" end="146" startBytecode="0" endBytecode="47" sourcefile="NextWordOrSeparatorTestTest.java" sourcepath="NextWordOrSeparatorTestTest.java"/>
+    </Method>
+    <Type descriptor="Lcomponents/list/List1L;" role="TYPE_FOUND" typeParameters="&lt;java.lang.String&gt;">
+      <SourceLine classname="components.list.List1L"/>
+    </Type>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.String" start="140" end="4657" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <LocalVariable name="resCand" register="3" pc="100" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <LocalVariable name="str" register="1" pc="100" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="java.lang.String" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.String" start="1827" end="1830" startBytecode="0" endBytecode="157" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="NextWordOrSeparatorTestTest" start="145" end="145" startBytecode="101" endBytecode="101" sourcefile="NextWordOrSeparatorTestTest.java" sourcepath="NextWordOrSeparatorTestTest.java"/>
+    <SourceLine classname="NextWordOrSeparatorTestTest" start="145" end="145" startBytecode="101" endBytecode="101" sourcefile="NextWordOrSeparatorTestTest.java" sourcepath="NextWordOrSeparatorTestTest.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 3 Apr 2024 18:43:23 -0400" total_classes="1" referenced_classes="20" total_bugs="1" total_size="105" num_packages="1" java_version="17.0.9" vm_version="17.0.9+9" cpu_seconds="0.26" clock_seconds="0.14" peak_mbytes="1595.22" alloc_mbytes="2048.00" gc_seconds="0.00" priority_2="1">
+    <PackageStats package="" total_bugs="1" total_types="1" total_size="105" priority_2="1">
+      <ClassStats class="NextWordOrSeparatorTestTest" sourceFile="NextWordOrSeparatorTestTest.java" interface="false" size="105" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="44" invocations="403" avgMicrosecondsPerInvocation="109" maxMicrosecondsPerInvocation="1899" standardDeviationMicrosecondsPerInvocation="225"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="28" invocations="2" avgMicrosecondsPerInvocation="14186" maxMicrosecondsPerInvocation="25189" standardDeviationMicrosecondsPerInvocation="11003"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="18" invocations="404" avgMicrosecondsPerInvocation="44" maxMicrosecondsPerInvocation="388" standardDeviationMicrosecondsPerInvocation="58"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1712180769336" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1712180769337" release="" codeSize="38" numClasses="4"/>
+    <AppVersion sequence="2" timestamp="1712180783920" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1712180795888" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1712180828230" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1712180865389" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1712180995083" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1712181047786" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1712181081260" release="" codeSize="5" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1712181104956" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1712181146633" release="" codeSize="5" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1712181157867" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1712181164141" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1712181491143" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1712181577561" release="" codeSize="84" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1712182073660" release="" codeSize="105" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1712182281280" release="" codeSize="120" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1712182378281" release="" codeSize="105" numClasses="1"/>
+  </History>
+</BugCollection>

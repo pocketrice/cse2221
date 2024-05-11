@@ -1,0 +1,55 @@
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+import components.naturalnumber.NaturalNumber;
+import components.naturalnumber.NaturalNumber2;
+
+public class CryptoUtilitiesTest {
+
+    @Test
+    public void reduceToGCDTest1() {
+        NaturalNumber n1 = new NaturalNumber2(30);
+        NaturalNumber n2 = new NaturalNumber2(60);
+
+        CryptoUtilities.reduceToGCD(n1, n2);
+
+        assertEquals(n1, new NaturalNumber2(10));
+    }
+//
+//    @Test
+//    public void stdPowerTest1() {
+//        NaturalNumber n1 = new NaturalNumber2(3);
+//        NaturalNumber n2 = new NaturalNumber2(5);
+//
+//        CryptoUtilities.powerMod(n1, n2, n2);
+//
+//        assertEquals(n1, new NaturalNumber2(243));
+//    }
+
+    @Test
+    public void powerModTest1() {
+        NaturalNumber n1 = new NaturalNumber2(2);
+        NaturalNumber n2 = new NaturalNumber2(5);
+        NaturalNumber m = new NaturalNumber2(5);
+
+        CryptoUtilities.powerMod(n1, n2, m);
+
+        assertEquals(n1, new NaturalNumber2(2));
+    }
+
+    @Test
+    public void isEvenTest1() {
+        NaturalNumber n = new NaturalNumber2(17);
+
+        assertTrue(!CryptoUtilities.isEven(n));
+    }
+
+    @Test
+    public void isEvenTest2() {
+        NaturalNumber n = new NaturalNumber2(4);
+
+        assertTrue(CryptoUtilities.isEven(n));
+    }
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.3" sequence="3" timestamp="1706914490276" analysisTimestamp="1706914490124" release="">
+  <Project projectName="ProjectTemplate">
+    <Jar>/Users/xie.3/cse/workspace/ProjectTemplate/bin/ProgramWithIOAndStaticMethod.class</Jar>
+    <AuxClasspathEntry>/Users/xie.3/cse/workspace/ProjectTemplate/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/xie.3/cse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.9.v20231028-0858/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/xie.3/cse/workspace/ProjectTemplate/src</SrcDir>
+    <SrcDir>/Users/xie.3/cse/workspace/ProjectTemplate/test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 2 Feb 2024 17:54:50 -0500" total_classes="1" referenced_classes="16" total_bugs="0" total_size="13" num_packages="1" java_version="17.0.9" vm_version="17.0.9+9" cpu_seconds="0.28" clock_seconds="0.15" peak_mbytes="796.23" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="13">
+      <ClassStats class="ProgramWithIOAndStaticMethod" sourceFile="ProgramWithIOAndStaticMethod.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="59" invocations="329" avgMicrosecondsPerInvocation="180" maxMicrosecondsPerInvocation="3077" standardDeviationMicrosecondsPerInvocation="366"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="39" invocations="2" avgMicrosecondsPerInvocation="19791" maxMicrosecondsPerInvocation="36167" standardDeviationMicrosecondsPerInvocation="16375"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="23" invocations="330" avgMicrosecondsPerInvocation="72" maxMicrosecondsPerInvocation="650" standardDeviationMicrosecondsPerInvocation="96"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1706914480907" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1706914480907" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1706914485710" release="" codeSize="10" numClasses="1"/>
+  </History>
+</BugCollection>

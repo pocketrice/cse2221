@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.3" sequence="1" timestamp="1705098860581" analysisTimestamp="1705098860290" release="">
+  <Project projectName="HelloWorld">
+    <Jar>/Users/xie.3/cse/workspace/HelloWorld/bin</Jar>
+    <AuxClasspathEntry>/Users/xie.3/cse/workspace/HelloWorld/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/xie.3/cse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.9.v20231028-0858/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/xie.3/cse/workspace/HelloWorld/src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 12 Jan 2024 17:34:20 -0500" total_classes="1" referenced_classes="15" total_bugs="0" total_size="9" num_packages="1" java_version="17.0.9" vm_version="17.0.9+9" cpu_seconds="1.26" clock_seconds="0.29" peak_mbytes="1597.31" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="9">
+      <ClassStats class="HelloWorld" sourceFile="HelloWorld.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="125" invocations="365" avgMicrosecondsPerInvocation="343" maxMicrosecondsPerInvocation="5598" standardDeviationMicrosecondsPerInvocation="678"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="43" invocations="2" avgMicrosecondsPerInvocation="21562" maxMicrosecondsPerInvocation="37568" standardDeviationMicrosecondsPerInvocation="16006"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="22" invocations="366" avgMicrosecondsPerInvocation="62" maxMicrosecondsPerInvocation="530" standardDeviationMicrosecondsPerInvocation="70"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="16" invocations="15" avgMicrosecondsPerInvocation="1099" maxMicrosecondsPerInvocation="5737" standardDeviationMicrosecondsPerInvocation="1690"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="15" invocations="69" avgMicrosecondsPerInvocation="231" maxMicrosecondsPerInvocation="3315" standardDeviationMicrosecondsPerInvocation="409"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1705098860581" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

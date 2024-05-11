@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.3" sequence="4" timestamp="1709766868133" analysisTimestamp="1709766867725" release="">
+  <Project projectName="XMLTreeRecursion">
+    <Jar>/Users/xie.3/cse/workspace/XMLTreeRecursion/bin/XMLTreeRecursion.class</Jar>
+    <AuxClasspathEntry>/Users/xie.3/cse/workspace/XMLTreeRecursion/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/xie.3/cse/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.9.v20231028-0858/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/xie.3/cse/workspace/XMLTreeRecursion/src</SrcDir>
+    <SrcDir>/Users/xie.3/cse/workspace/XMLTreeRecursion/test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 6 Mar 2024 18:14:27 -0500" total_classes="1" referenced_classes="22" total_bugs="0" total_size="91" num_packages="1" java_version="17.0.9" vm_version="17.0.9+9" cpu_seconds="1.06" clock_seconds="0.41" peak_mbytes="788.32" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="91">
+      <ClassStats class="XMLTreeRecursion" sourceFile="XMLTreeRecursion.java" interface="false" size="91" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="174" invocations="419" avgMicrosecondsPerInvocation="416" maxMicrosecondsPerInvocation="9895" standardDeviationMicrosecondsPerInvocation="997"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="44" invocations="2" avgMicrosecondsPerInvocation="22055" maxMicrosecondsPerInvocation="38693" standardDeviationMicrosecondsPerInvocation="16638"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="32" invocations="420" avgMicrosecondsPerInvocation="77" maxMicrosecondsPerInvocation="970" standardDeviationMicrosecondsPerInvocation="104"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="14" invocations="22" avgMicrosecondsPerInvocation="642" maxMicrosecondsPerInvocation="3651" standardDeviationMicrosecondsPerInvocation="997"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="13" invocations="84" avgMicrosecondsPerInvocation="157" maxMicrosecondsPerInvocation="1122" standardDeviationMicrosecondsPerInvocation="196"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1709766780857" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1709766780858" release="" codeSize="38" numClasses="4"/>
+    <AppVersion sequence="2" timestamp="1709766800276" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1709766814957" release="" codeSize="89" numClasses="1"/>
+  </History>
+</BugCollection>
